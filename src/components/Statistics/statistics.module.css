@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+
+.statistics {
+  list-style: none;
+  padding: 0;
+}
+
+.statistic {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+}
+
+.result {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(170, 35, 35);
+}
