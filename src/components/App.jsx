@@ -44,7 +44,7 @@ function App() {
       <Section title={'Please leave feedback'}>
         <FeedbackOptions
           onLeaveFeadback={leaveFeadback}
-          options={new Array(GOOD, NEUTRAL, BAD)}
+          options={[GOOD, NEUTRAL, BAD]}
         />
 
         {countTotalFeedback() ? (
